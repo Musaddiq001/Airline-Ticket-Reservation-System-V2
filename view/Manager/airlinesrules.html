@@ -1,0 +1,100 @@
+<?php
+session_start();
+if(!isset($_COOKIE['user'])){  
+  header("location: ../../home.html");
+}
+?>
+
+
+<html lang="en">
+
+<head>
+    <title>Airlines Rules and Regulations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <h1>Welcome to</h1>
+            <h2>Airline Ticket Reservation System </h2>
+            <h4>Airlines Rules and Regulations</h4><br><br>
+            <ul class="nav justify-content-center">
+
+             <div class="sticky-top"><nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="managerhomepage.html">Back</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profile.php">My Profile</a>
+                            </li>                   
+                            <li class="nav-item">
+                                <a class="nav-link" href="logout.php">Log Out</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </nav>
+<style>
+table, th, td {
+  border: 3px solid black;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+    <form action="submit.php" method="post">
+        <table align="center" border="1">
+            <th>Sl no.</th>
+            <th>Rules</th>
+            <tr>
+                <td>1</td>
+				<td><h4>Airline Rules</h4>
+Traveling by plane is not nearly as simple as buying a ticket, checking your luggage, 
+and taking your seat. 
+A host of legal systems works to protect your ability to board an airplane and help ensure your luggage gets to the destination written on the baggage claim ticket. However, these systems do not always work as planned, so there are additional protections in place to help you resolve disputes with the airline company. FindLaw's Airline Rules section provides information about the various rules and regulations governing air travel, including security procedures and rules with regard to luggage and carry-on items. In this section, you can find articles about travel scams, 
+the pros and cons of using a travel agent, and the benefits of travel insurance.
+
+            </tr>
+			<th>Sl no.</th>
+            <th>Rules</th>
+            <tr>
+                <td>2</td>
+				<td>A guide to navigating airport security. Learn about the types of permitted and prohibited items, security screening tips, 
+				TSA-recognized baggage locks, and what to do if you're transporting special items.</td>
+
+            </tr>
+
+        </table>
+      </table>
+      </div>
+
+            </div>
+            <div class="jumbotron text-center" style="margin-bottom:0">
+ 
+        </div>
+
+</body>
+
+</html>
